@@ -1,0 +1,208 @@
+{
+  "_note": "Fonte de verdade do site. Itens marcados TODO precisam ser preenchidos antes da publicação (webhook, motor de reservas, GTM, domínio definitivo, CNPJ, lat/long).",
+
+  "hotel": {
+    "name": "Pousada Siri do Mar",
+    "tagline": "Hospedagem acolhedora, segura e confortável em Praia de Leste",
+    "description_short": "Pousada familiar a poucos passos do mar em Praia de Leste, Pontal do Paraná. 11 suítes confortáveis, atendimento humano e estrutura prática para casais e famílias.",
+    "description_long": "A Pousada Siri do Mar nasceu em outubro de 2025 com a proposta de oferecer mais do que hospedagem: uma experiência de descanso, acolhimento e proximidade com o litoral paranaense. Localizada em Praia de Leste, Pontal do Paraná, a pousada combina atendimento personalizado, ambiente limpo e seguro, e uma estrutura prática e confortável — pensada para quem busca tranquilidade, custo-benefício e a sensação de estar em casa, perto do mar.",
+    "style": "Litoral acolhedor, familiar, prático, custo-benefício",
+    "target_audience": "Casais e famílias entre 35 e 70 anos, classe média e média alta, vindos principalmente de Curitiba, Ponta Grossa, Norte do Paraná, Paraguai e Argentina. Buscam facilidade, conforto, descanso, tranquilidade e experiências familiares.",
+    "tone": "Acolhedor, familiar, próximo. Sem formalidade exagerada, sem 'glamour' falso. Comunicação direta e calorosa, focada em segurança, limpeza, conforto e proximidade do mar.",
+    "founded": "2025-10"
+  },
+
+  "contact": {
+    "phone": "(41) 99540-5057",
+    "phone_international": "+55-41-99540-5057",
+    "email": "pousadasiridomar@gmail.com",
+    "wa_number": "5541995405057",
+    "wa_message": "Olá, vim pelo site e gostaria de mais informações!",
+    "instagram": "pousadasiridomar",
+    "instagram_url": "https://www.instagram.com/pousadasiridomar"
+  },
+
+  "address": {
+    "street": "Av. Laudino Ivo Vigo, 366",
+    "neighborhood": "Praia de Leste",
+    "city": "Pontal do Paraná",
+    "state": "PR",
+    "zip": "TODO",
+    "country": "BR",
+    "coordinates": {
+      "lat": null,
+      "lng": null,
+      "_note": "TODO: preencher com coordenadas exatas para o mapa e o JSON-LD."
+    }
+  },
+
+  "business": {
+    "cnpj": "TODO",
+    "number_of_units": 11,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "price_range": "$$",
+    "responsible": "José Danilo"
+  },
+
+  "positioning": {
+    "value_pillars": [
+      "Atendimento humano e personalizado",
+      "Ambiente limpo e seguro",
+      "Estrutura prática e confortável",
+      "Experiência familiar",
+      "Boa relação custo-benefício",
+      "Localização estratégica próxima ao mar"
+    ],
+    "narrative": "Hospedagem acolhedora, segura e confortável em Praia de Leste."
+  },
+
+  "accommodations": [
+    {
+      "category": "padrao",
+      "name": "Suíte Padrão",
+      "label": "11 unidades disponíveis",
+      "capacity": "Até 5 pessoas (1 casal + treliche para 3)",
+      "highlights": [
+        "Banheiro privativo",
+        "1 cama de casal",
+        "1 treliche",
+        "Ar-condicionado",
+        "Frigobar",
+        "Smart TV",
+        "Roupa de cama e banho fornecidas"
+      ],
+      "image": "assets/img/quartos/foto_01.jpg"
+    }
+  ],
+
+  "amenities_property": [
+    "Estacionamento privativo",
+    "Área externa com jardim",
+    "Redes para descanso",
+    "Área de lazer",
+    "Recepção"
+  ],
+
+  "differentials": {
+    "operational": [
+      "Localização privilegiada — perto do mar",
+      "Estacionamento privativo",
+      "Segurança",
+      "Limpeza rigorosa"
+    ],
+    "commercial": [
+      "Convênios corporativos",
+      "Tarifas diferenciadas para hóspedes corporativos",
+      "Boa relação custo-benefício"
+    ],
+    "experience": [
+      "Atendimento personalizado",
+      "Foco em necessidades individuais",
+      "Ambiente acolhedor"
+    ]
+  },
+
+  "demand_origins": [
+    "Curitiba",
+    "Ponta Grossa",
+    "Norte do Paraná",
+    "Paraguai",
+    "Argentina"
+  ],
+
+  "pet_policy": {
+    "allowed": null,
+    "_note": "TODO: confirmar política pet com o cliente antes de publicar."
+  },
+
+  "food_policy": "TODO: confirmar se há café da manhã incluso, sob consulta ou sem refeição.",
+
+  "nearby_attractions": [
+    {
+      "name": "Praia de Leste",
+      "distance": "Em frente — a poucos passos da pousada",
+      "entry": "Gratuita"
+    },
+    {
+      "name": "Centro de Pontal do Paraná",
+      "distance": "Curta distância de carro",
+      "entry": "Gratuita"
+    },
+    {
+      "name": "Ilha do Mel",
+      "distance": "Acesso por balsa em Pontal do Sul",
+      "entry": "Taxa de ingresso na ilha"
+    },
+    {
+      "name": "Pontal do Sul (balsa)",
+      "distance": "~25 km",
+      "entry": "Gratuita até o terminal"
+    }
+  ],
+
+  "policies": {
+    "children": "TODO: confirmar política de crianças e idades pagantes.",
+    "payment": "TODO: confirmar formas de pagamento aceitas e parcelamento.",
+    "cancellation": "TODO: confirmar política de cancelamento."
+  },
+
+  "objectives": {
+    "main_goal": "Aumentar ocupação fora da temporada",
+    "annual_revenue_target": 700000,
+    "current_metrics": {
+      "march_occupancy": "21,7%",
+      "current_revenue": 0
+    },
+    "strategic_opportunities": {
+      "revenue": [
+        "Estruturar precificação dinâmica",
+        "Elevar diária média",
+        "Criar pacotes de baixa temporada",
+        "Fortalecer vendas diretas"
+      ],
+      "marketing": [
+        "Campanhas regionais focadas em Curitiba e Ponta Grossa",
+        "Retargeting no Instagram",
+        "Parcerias com empresas",
+        "Programa de indicação"
+      ],
+      "commercial": [
+        "Convênios corporativos recorrentes",
+        "Tarifas long stay",
+        "Pacotes para casais e famílias"
+      ]
+    }
+  },
+
+  "marketing_history": {
+    "channels_with_results": [
+      "Influenciador local",
+      "Publicações no Instagram"
+    ]
+  },
+
+  "integrations": {
+    "webhook_url": "https://webhook.cidigitalmarketing.com/webhook/4f596ba5-158b-4c54-9958-0cf8353907ec",
+    "gtm_id": "TODO",
+    "booking_engine_url": "https://booking.hqbeds.com.br/pousadasiridomar",
+    "booking_engine_provider": "HQBeds",
+    "maps_embed_query": "Pousada Siri do Mar, Praia de Leste, Pontal do Paraná - PR",
+    "domain": "TODO"
+  },
+
+  "design": {
+    "primary": "#1f5d7a",
+    "primary_dark": "#16465c",
+    "accent": "#1f5d7a",
+    "cta": "#e17a5a",
+    "cta_secondary": "#c66143",
+    "highlight": "#f4c542",
+    "bg": "#ffffff",
+    "surface": "#fbf6ec",
+    "text": "#1a2733",
+    "font_display": "Playfair Display",
+    "font_body": "Raleway",
+    "_note": "Paleta extraída da logo: azul-mar profundo (ondas) + coral (caranguejo) + areia/creme (fundo da logo) + amarelo-sol (detalhe)."
+  }
+}
