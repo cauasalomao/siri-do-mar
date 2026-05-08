@@ -1,2 +1,8 @@
 pousada-montverde-final/
 .claude/
+CLAUDE.md
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+*.log
